@@ -1,0 +1,404 @@
+[0.170s] Invoking command in '/home/electronica/ros2_ws/build/my_robots_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/electronica/ros2_ws/install/turtlesim_catch_them_all:/home/electronica/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/electronica/ros2_ws/build/my_robots_interfaces -- -j8 -l8
+[0.309s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.567s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.580s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.589s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.662s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.242s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.574s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.032s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.129s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.400s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.401s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.401s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.520s] -- Configuring done
+[2.629s] -- Generating done
+[2.640s] -- Build files have been written to: /home/electronica/ros2_ws/build/my_robots_interfaces
+[2.677s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.691s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.803s] [  2%] Built target ament_cmake_python_copy_my_robots_interfaces
+[3.313s] running egg_info
+[3.314s] writing my_robots_interfaces.egg-info/PKG-INFO
+[3.315s] writing dependency_links to my_robots_interfaces.egg-info/dependency_links.txt
+[3.315s] writing top-level names to my_robots_interfaces.egg-info/top_level.txt
+[3.319s] reading manifest file 'my_robots_interfaces.egg-info/SOURCES.txt'
+[3.320s] writing manifest file 'my_robots_interfaces.egg-info/SOURCES.txt'
+[3.357s] [  2%] Built target ament_cmake_python_build_my_robots_interfaces_egg
+[3.626s] [  2%] Built target my_robots_interfaces__cpp
+[3.664s] [  6%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.664s] [  6%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.664s] [  6%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.769s] [35m[1mConsolidate compiler generated dependencies of target my_robots_interfaces__rosidl_generator_c[0m
+[3.792s] [ 11%] [32mBuilding C object CMakeFiles/my_robots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robots_interfaces/msg/detail/turtle__functions.c.o[0m
+[3.793s] [ 11%] [32mBuilding C object CMakeFiles/my_robots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robots_interfaces/msg/detail/led_state_array__functions.c.o[0m
+[3.793s] [ 11%] [32mBuilding C object CMakeFiles/my_robots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robots_interfaces/msg/detail/hardware_status__functions.c.o[0m
+[3.793s] [ 11%] [32mBuilding C object CMakeFiles/my_robots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robots_interfaces/msg/detail/turtle_array__functions.c.o[0m
+[3.805s] [ 12%] [32mBuilding C object CMakeFiles/my_robots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robots_interfaces/srv/detail/compute_rectangle_area__functions.c.o[0m
+[4.067s] [ 13%] [32mBuilding C object CMakeFiles/my_robots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robots_interfaces/srv/detail/catch_turtle__functions.c.o[0m
+[4.070s] [ 15%] [32mBuilding C object CMakeFiles/my_robots_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robots_interfaces/srv/detail/set_leds_staus__functions.c.o[0m
+[4.180s] [ 16%] [32m[1mLinking C shared library libmy_robots_interfaces__rosidl_generator_c.so[0m
+[4.254s] [ 16%] Built target my_robots_interfaces__rosidl_generator_c
+[4.271s] [ 18%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.271s] [ 18%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.273s] [ 20%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.343s] [35m[1mConsolidate compiler generated dependencies of target my_robots_interfaces__rosidl_typesupport_cpp[0m
+[4.372s] [ 24%] [32mBuilding CXX object CMakeFiles/my_robots_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robots_interfaces/msg/led_state_array__type_support.cpp.o[0m
+[4.372s] [ 24%] [32mBuilding CXX object CMakeFiles/my_robots_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robots_interfaces/msg/hardware_status__type_support.cpp.o[0m
+[4.373s] [ 24%] [32mBuilding CXX object CMakeFiles/my_robots_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robots_interfaces/msg/turtle__type_support.cpp.o[0m
+[4.748s] [35m[1mConsolidate compiler generated dependencies of target my_robots_interfaces__rosidl_typesupport_introspection_cpp[0m
+[4.771s] [ 25%] [32mBuilding CXX object CMakeFiles/my_robots_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robots_interfaces/msg/detail/hardware_status__type_support.cpp.o[0m
+[4.946s] [35m[1mConsolidate compiler generated dependencies of target my_robots_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[4.986s] [ 26%] [32mBuilding CXX object CMakeFiles/my_robots_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robots_interfaces/msg/detail/dds_fastrtps/hardware_status__type_support.cpp.o[0m
+[5.101s] [35m[1mConsolidate compiler generated dependencies of target my_robots_interfaces__rosidl_typesupport_c[0m
+[5.118s] [ 27%] [32mBuilding CXX object CMakeFiles/my_robots_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robots_interfaces/msg/hardware_status__type_support.cpp.o[0m
+[5.218s] [ 29%] [32mBuilding CXX object CMakeFiles/my_robots_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robots_interfaces/msg/led_state_array__type_support.cpp.o[0m
+[5.284s] [ 30%] [32mBuilding CXX object CMakeFiles/my_robots_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robots_interfaces/msg/turtle__type_support.cpp.o[0m
+[5.348s] [ 31%] [32mBuilding CXX object CMakeFiles/my_robots_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robots_interfaces/msg/turtle_array__type_support.cpp.o[0m
+[5.411s] [ 32%] [32mBuilding CXX object CMakeFiles/my_robots_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robots_interfaces/srv/compute_rectangle_area__type_support.cpp.o[0m
+[5.486s] [ 34%] [32mBuilding CXX object CMakeFiles/my_robots_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robots_interfaces/srv/set_leds_staus__type_support.cpp.o[0m
+[5.551s] [ 35%] [32mBuilding CXX object CMakeFiles/my_robots_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robots_interfaces/msg/turtle_array__type_support.cpp.o[0m
+[5.559s] [ 36%] [32mBuilding CXX object CMakeFiles/my_robots_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robots_interfaces/srv/compute_rectangle_area__type_support.cpp.o[0m
+[5.562s] [ 37%] [32mBuilding CXX object CMakeFiles/my_robots_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robots_interfaces/srv/catch_turtle__type_support.cpp.o[0m
+[5.569s] [ 39%] [32mBuilding CXX object CMakeFiles/my_robots_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robots_interfaces/msg/detail/dds_fastrtps/led_state_array__type_support.cpp.o[0m
+[5.614s] [35m[1mConsolidate compiler generated dependencies of target my_robots_interfaces__rosidl_typesupport_introspection_c[0m
+[5.628s] [ 40%] [32m[1mLinking CXX shared library libmy_robots_interfaces__rosidl_typesupport_c.so[0m
+[5.652s] [ 41%] [32mBuilding C object CMakeFiles/my_robots_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robots_interfaces/msg/detail/hardware_status__type_support.c.o[0m
+[5.726s] [ 41%] Built target my_robots_interfaces__rosidl_typesupport_c
+[5.730s] [ 43%] [32mBuilding C object CMakeFiles/my_robots_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robots_interfaces/msg/detail/led_state_array__type_support.c.o[0m
+[5.789s] [ 44%] [32mBuilding C object CMakeFiles/my_robots_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robots_interfaces/msg/detail/turtle__type_support.c.o[0m
+[5.805s] [ 45%] [32mBuilding C object CMakeFiles/my_robots_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robots_interfaces/msg/detail/turtle_array__type_support.c.o[0m
+[5.812s] [35m[1mConsolidate compiler generated dependencies of target my_robots_interfaces__rosidl_typesupport_fastrtps_c[0m
+[5.851s] [ 46%] [32mBuilding CXX object CMakeFiles/my_robots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robots_interfaces/msg/detail/hardware_status__type_support_c.cpp.o[0m
+[5.866s] [ 48%] [32mBuilding C object CMakeFiles/my_robots_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robots_interfaces/srv/detail/compute_rectangle_area__type_support.c.o[0m
+[5.881s] [ 49%] [32mBuilding C object CMakeFiles/my_robots_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robots_interfaces/srv/detail/set_leds_staus__type_support.c.o[0m
+[5.935s] [ 50%] [32mBuilding CXX object CMakeFiles/my_robots_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robots_interfaces/msg/detail/led_state_array__type_support.cpp.o[0m
+[5.944s] [ 51%] [32mBuilding CXX object CMakeFiles/my_robots_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robots_interfaces/msg/detail/turtle__type_support.cpp.o[0m
+[5.946s] [ 53%] [32mBuilding C object CMakeFiles/my_robots_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robots_interfaces/srv/detail/catch_turtle__type_support.c.o[0m
+[6.024s] [ 54%] [32m[1mLinking C shared library libmy_robots_interfaces__rosidl_typesupport_introspection_c.so[0m
+[6.103s] [ 54%] Built target my_robots_interfaces__rosidl_typesupport_introspection_c
+[6.122s] [ 55%] [32mBuilding CXX object CMakeFiles/my_robots_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robots_interfaces/msg/detail/turtle_array__type_support.cpp.o[0m
+[6.245s] [ 56%] [32mBuilding CXX object CMakeFiles/my_robots_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robots_interfaces/msg/detail/dds_fastrtps/turtle__type_support.cpp.o[0m
+[6.266s] [ 58%] [32mBuilding CXX object CMakeFiles/my_robots_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robots_interfaces/srv/set_leds_staus__type_support.cpp.o[0m
+[6.280s] [ 59%] [32mBuilding CXX object CMakeFiles/my_robots_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robots_interfaces/srv/catch_turtle__type_support.cpp.o[0m
+[6.724s] [ 60%] [32mBuilding CXX object CMakeFiles/my_robots_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robots_interfaces/msg/detail/dds_fastrtps/turtle_array__type_support.cpp.o[0m
+[6.762s] [ 62%] [32mBuilding CXX object CMakeFiles/my_robots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robots_interfaces/msg/detail/led_state_array__type_support_c.cpp.o[0m
+[6.972s] [ 63%] [32mBuilding CXX object CMakeFiles/my_robots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robots_interfaces/msg/detail/turtle__type_support_c.cpp.o[0m
+[6.984s] [ 64%] [32m[1mLinking CXX shared library libmy_robots_interfaces__rosidl_typesupport_cpp.so[0m
+[6.990s] [ 65%] [32mBuilding CXX object CMakeFiles/my_robots_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robots_interfaces/srv/detail/compute_rectangle_area__type_support.cpp.o[0m
+[7.038s] [ 67%] [32mBuilding CXX object CMakeFiles/my_robots_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robots_interfaces/srv/detail/set_leds_staus__type_support.cpp.o[0m
+[7.081s] [ 67%] Built target my_robots_interfaces__rosidl_typesupport_cpp
+[7.100s] [ 68%] [32mBuilding CXX object CMakeFiles/my_robots_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robots_interfaces/srv/detail/catch_turtle__type_support.cpp.o[0m
+[7.315s] [ 69%] [32mBuilding CXX object CMakeFiles/my_robots_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robots_interfaces/srv/detail/dds_fastrtps/compute_rectangle_area__type_support.cpp.o[0m
+[7.362s] [ 70%] [32mBuilding CXX object CMakeFiles/my_robots_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robots_interfaces/srv/detail/dds_fastrtps/set_leds_staus__type_support.cpp.o[0m
+[7.620s] [ 72%] [32mBuilding CXX object CMakeFiles/my_robots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robots_interfaces/msg/detail/turtle_array__type_support_c.cpp.o[0m
+[7.859s] [ 73%] [32mBuilding CXX object CMakeFiles/my_robots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robots_interfaces/srv/detail/compute_rectangle_area__type_support_c.cpp.o[0m
+[7.872s] [ 74%] [32mBuilding CXX object CMakeFiles/my_robots_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robots_interfaces/srv/detail/dds_fastrtps/catch_turtle__type_support.cpp.o[0m
+[8.043s] [ 75%] [32mBuilding CXX object CMakeFiles/my_robots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robots_interfaces/srv/detail/set_leds_staus__type_support_c.cpp.o[0m
+[8.057s] [ 77%] [32mBuilding CXX object CMakeFiles/my_robots_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robots_interfaces/srv/detail/catch_turtle__type_support_c.cpp.o[0m
+[8.126s] [ 78%] [32m[1mLinking CXX shared library libmy_robots_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[8.330s] [ 78%] Built target my_robots_interfaces__rosidl_typesupport_introspection_cpp
+[8.765s] [ 79%] [32m[1mLinking CXX shared library libmy_robots_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[8.813s] [ 81%] [32m[1mLinking CXX shared library libmy_robots_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[8.899s] [ 81%] Built target my_robots_interfaces__rosidl_typesupport_fastrtps_cpp
+[8.936s] [ 81%] Built target my_robots_interfaces__rosidl_typesupport_fastrtps_c
+[8.992s] [ 81%] Built target my_robots_interfaces
+[9.024s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[10.535s] [ 82%] Built target my_robots_interfaces__py
+[10.555s] [35m[1mConsolidate compiler generated dependencies of target my_robots_interfaces__rosidl_generator_py[0m
+[10.584s] [ 83%] [32mBuilding C object CMakeFiles/my_robots_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robots_interfaces/msg/_turtle_s.c.o[0m
+[10.585s] [ 86%] [32mBuilding C object CMakeFiles/my_robots_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robots_interfaces/msg/_led_state_array_s.c.o[0m
+[10.585s] [ 86%] [32mBuilding C object CMakeFiles/my_robots_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robots_interfaces/msg/_hardware_status_s.c.o[0m
+[10.587s] [ 88%] [32mBuilding C object CMakeFiles/my_robots_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robots_interfaces/msg/_turtle_array_s.c.o[0m
+[10.588s] [ 88%] [32mBuilding C object CMakeFiles/my_robots_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robots_interfaces/srv/_compute_rectangle_area_s.c.o[0m
+[10.588s] [ 89%] [32mBuilding C object CMakeFiles/my_robots_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robots_interfaces/srv/_set_leds_staus_s.c.o[0m
+[10.588s] [ 91%] [32mBuilding C object CMakeFiles/my_robots_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robots_interfaces/srv/_catch_turtle_s.c.o[0m
+[11.112s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/my_robots_interfaces/libmy_robots_interfaces__rosidl_generator_py.so[0m
+[11.167s] [ 92%] Built target my_robots_interfaces__rosidl_generator_py
+[11.182s] [35m[1mConsolidate compiler generated dependencies of target my_robots_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[11.182s] [35m[1mConsolidate compiler generated dependencies of target my_robots_interfaces__rosidl_typesupport_c__pyext[0m
+[11.183s] [35m[1mConsolidate compiler generated dependencies of target my_robots_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[11.200s] [ 96%] [32mBuilding C object CMakeFiles/my_robots_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_robots_interfaces/_my_robots_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[11.200s] [ 96%] [32mBuilding C object CMakeFiles/my_robots_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_robots_interfaces/_my_robots_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[11.200s] [ 96%] [32mBuilding C object CMakeFiles/my_robots_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_robots_interfaces/_my_robots_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[11.398s] [100%] [32m[1mLinking C shared library rosidl_generator_py/my_robots_interfaces/my_robots_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[11.399s] [100%] [32m[1mLinking C shared library rosidl_generator_py/my_robots_interfaces/my_robots_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[11.399s] [100%] [32m[1mLinking C shared library rosidl_generator_py/my_robots_interfaces/my_robots_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[11.446s] [100%] Built target my_robots_interfaces__rosidl_typesupport_introspection_c__pyext
+[11.446s] [100%] Built target my_robots_interfaces__rosidl_typesupport_c__pyext
+[11.447s] [100%] Built target my_robots_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[11.467s] Invoked command in '/home/electronica/ros2_ws/build/my_robots_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/electronica/ros2_ws/install/turtlesim_catch_them_all:/home/electronica/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/electronica/ros2_ws/build/my_robots_interfaces -- -j8 -l8
+[11.707s] Invoking command in '/home/electronica/ros2_ws/build/my_robots_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/electronica/ros2_ws/install/turtlesim_catch_them_all:/home/electronica/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/electronica/ros2_ws/build/my_robots_interfaces
+[11.719s] -- Install configuration: ""
+[11.720s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_robots_interfaces
+[11.720s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces
+[11.720s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg
+[11.720s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/turtle.h
+[11.721s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/led_state_array.h
+[11.721s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/rosidl_generator_c__visibility_control.h
+[11.721s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/turtle_array.h
+[11.721s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/hardware_status.h
+[11.721s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/detail
+[11.721s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/detail/turtle__type_support.h
+[11.722s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/detail/turtle_array__functions.c
+[11.722s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/detail/turtle__functions.h
+[11.722s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/detail/turtle__struct.h
+[11.722s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/detail/led_state_array__functions.c
+[11.722s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/detail/turtle_array__functions.h
+[11.722s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/detail/led_state_array__struct.h
+[11.723s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/detail/turtle__functions.c
+[11.723s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/detail/hardware_status__struct.h
+[11.723s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/detail/hardware_status__functions.c
+[11.723s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/detail/led_state_array__type_support.h
+[11.723s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/detail/led_state_array__functions.h
+[11.723s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/detail/hardware_status__type_support.h
+[11.724s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/detail/hardware_status__functions.h
+[11.724s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/detail/turtle_array__struct.h
+[11.724s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/detail/turtle_array__type_support.h
+[11.724s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/srv
+[11.724s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/srv/compute_rectangle_area.h
+[11.725s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/srv/catch_turtle.h
+[11.725s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/srv/set_leds_staus.h
+[11.725s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/srv/detail
+[11.725s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/srv/detail/catch_turtle__functions.c
+[11.725s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/srv/detail/set_leds_staus__type_support.h
+[11.725s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/srv/detail/catch_turtle__type_support.h
+[11.726s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/srv/detail/compute_rectangle_area__struct.h
+[11.726s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/srv/detail/set_leds_staus__functions.h
+[11.726s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/srv/detail/catch_turtle__struct.h
+[11.726s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/srv/detail/set_leds_staus__functions.c
+[11.726s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/srv/detail/compute_rectangle_area__functions.h
+[11.726s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/srv/detail/catch_turtle__functions.h
+[11.727s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/srv/detail/set_leds_staus__struct.h
+[11.727s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/srv/detail/compute_rectangle_area__functions.c
+[11.727s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/srv/detail/compute_rectangle_area__type_support.h
+[11.727s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/share/my_robots_interfaces/environment/library_path.sh
+[11.727s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/share/my_robots_interfaces/environment/library_path.dsv
+[11.727s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/lib/libmy_robots_interfaces__rosidl_generator_c.so
+[11.728s] -- Set runtime path of "/home/electronica/ros2_ws/install/my_robots_interfaces/lib/libmy_robots_interfaces__rosidl_generator_c.so" to ""
+[11.728s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces
+[11.728s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg
+[11.728s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[11.728s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/detail
+[11.729s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/detail/turtle_array__rosidl_typesupport_fastrtps_c.h
+[11.729s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/detail/led_state_array__rosidl_typesupport_fastrtps_c.h
+[11.729s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/detail/turtle__rosidl_typesupport_fastrtps_c.h
+[11.729s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_c.h
+[11.729s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/srv
+[11.729s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/srv/detail
+[11.730s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/srv/detail/catch_turtle__rosidl_typesupport_fastrtps_c.h
+[11.730s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/srv/detail/set_leds_staus__rosidl_typesupport_fastrtps_c.h
+[11.730s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_fastrtps_c.h
+[11.730s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/lib/libmy_robots_interfaces__rosidl_typesupport_fastrtps_c.so
+[11.730s] -- Set runtime path of "/home/electronica/ros2_ws/install/my_robots_interfaces/lib/libmy_robots_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[11.730s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces
+[11.731s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg
+[11.731s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[11.731s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/detail
+[11.731s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/detail/turtle_array__type_support.c
+[11.731s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/detail/led_state_array__type_support.c
+[11.731s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/detail/turtle__type_support.c
+[11.732s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/detail/turtle_array__rosidl_typesupport_introspection_c.h
+[11.732s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/detail/led_state_array__rosidl_typesupport_introspection_c.h
+[11.732s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/detail/turtle__rosidl_typesupport_introspection_c.h
+[11.732s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/detail/hardware_status__type_support.c
+[11.732s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_c.h
+[11.733s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/srv
+[11.733s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/srv/detail
+[11.733s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/srv/detail/compute_rectangle_area__type_support.c
+[11.733s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_introspection_c.h
+[11.733s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/srv/detail/set_leds_staus__rosidl_typesupport_introspection_c.h
+[11.733s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/srv/detail/catch_turtle__rosidl_typesupport_introspection_c.h
+[11.734s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/srv/detail/catch_turtle__type_support.c
+[11.734s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/srv/detail/set_leds_staus__type_support.c
+[11.734s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/lib/libmy_robots_interfaces__rosidl_typesupport_introspection_c.so
+[11.734s] -- Set runtime path of "/home/electronica/ros2_ws/install/my_robots_interfaces/lib/libmy_robots_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[11.734s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/lib/libmy_robots_interfaces__rosidl_typesupport_c.so
+[11.735s] -- Set runtime path of "/home/electronica/ros2_ws/install/my_robots_interfaces/lib/libmy_robots_interfaces__rosidl_typesupport_c.so" to ""
+[11.735s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces
+[11.735s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg
+[11.735s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/turtle.hpp
+[11.735s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/led_state_array.hpp
+[11.735s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/turtle_array.hpp
+[11.736s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/detail
+[11.736s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/detail/turtle_array__struct.hpp
+[11.736s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/detail/turtle__builder.hpp
+[11.736s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/detail/turtle__struct.hpp
+[11.736s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/detail/led_state_array__builder.hpp
+[11.737s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/detail/led_state_array__struct.hpp
+[11.737s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/detail/hardware_status__traits.hpp
+[11.737s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/detail/turtle__traits.hpp
+[11.737s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/detail/hardware_status__builder.hpp
+[11.737s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/detail/hardware_status__struct.hpp
+[11.738s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/detail/turtle_array__builder.hpp
+[11.738s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/detail/led_state_array__traits.hpp
+[11.738s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/detail/turtle_array__traits.hpp
+[11.738s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/hardware_status.hpp
+[11.738s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/srv
+[11.738s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/srv/catch_turtle.hpp
+[11.739s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/srv/compute_rectangle_area.hpp
+[11.739s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/srv/detail
+[11.739s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/srv/detail/catch_turtle__builder.hpp
+[11.739s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/srv/detail/catch_turtle__struct.hpp
+[11.739s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/srv/detail/set_leds_staus__struct.hpp
+[11.739s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/srv/detail/compute_rectangle_area__builder.hpp
+[11.740s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/srv/detail/compute_rectangle_area__traits.hpp
+[11.740s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/srv/detail/compute_rectangle_area__struct.hpp
+[11.740s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/srv/detail/set_leds_staus__builder.hpp
+[11.740s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/srv/detail/set_leds_staus__traits.hpp
+[11.740s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/srv/detail/catch_turtle__traits.hpp
+[11.740s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/srv/set_leds_staus.hpp
+[11.741s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces
+[11.741s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg
+[11.741s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[11.741s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/detail
+[11.741s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_cpp.hpp
+[11.742s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/detail/turtle_array__rosidl_typesupport_fastrtps_cpp.hpp
+[11.742s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/detail/led_state_array__rosidl_typesupport_fastrtps_cpp.hpp
+[11.742s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/detail/turtle__rosidl_typesupport_fastrtps_cpp.hpp
+[11.742s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/detail/dds_fastrtps
+[11.742s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/srv
+[11.742s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/srv/detail
+[11.743s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/srv/detail/set_leds_staus__rosidl_typesupport_fastrtps_cpp.hpp
+[11.743s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/srv/detail/catch_turtle__rosidl_typesupport_fastrtps_cpp.hpp
+[11.743s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_fastrtps_cpp.hpp
+[11.743s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/srv/detail/dds_fastrtps
+[11.757s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/lib/libmy_robots_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[11.758s] -- Set runtime path of "/home/electronica/ros2_ws/install/my_robots_interfaces/lib/libmy_robots_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[11.759s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces
+[11.759s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg
+[11.759s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/detail
+[11.759s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/detail/turtle_array__rosidl_typesupport_introspection_cpp.hpp
+[11.759s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/detail/turtle_array__type_support.cpp
+[11.760s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/detail/led_state_array__rosidl_typesupport_introspection_cpp.hpp
+[11.760s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/detail/turtle__rosidl_typesupport_introspection_cpp.hpp
+[11.760s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_cpp.hpp
+[11.760s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/detail/led_state_array__type_support.cpp
+[11.760s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/detail/turtle__type_support.cpp
+[11.761s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/msg/detail/hardware_status__type_support.cpp
+[11.761s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/srv
+[11.761s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/srv/detail
+[11.761s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/srv/detail/set_leds_staus__type_support.cpp
+[11.761s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/srv/detail/set_leds_staus__rosidl_typesupport_introspection_cpp.hpp
+[11.762s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/srv/detail/catch_turtle__rosidl_typesupport_introspection_cpp.hpp
+[11.762s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_introspection_cpp.hpp
+[11.762s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/srv/detail/compute_rectangle_area__type_support.cpp
+[11.762s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/include/my_robots_interfaces/my_robots_interfaces/srv/detail/catch_turtle__type_support.cpp
+[11.763s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/lib/libmy_robots_interfaces__rosidl_typesupport_introspection_cpp.so
+[11.764s] -- Set runtime path of "/home/electronica/ros2_ws/install/my_robots_interfaces/lib/libmy_robots_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[11.765s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/lib/libmy_robots_interfaces__rosidl_typesupport_cpp.so
+[11.766s] -- Set runtime path of "/home/electronica/ros2_ws/install/my_robots_interfaces/lib/libmy_robots_interfaces__rosidl_typesupport_cpp.so" to ""
+[11.766s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/share/my_robots_interfaces/environment/pythonpath.sh
+[11.766s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/share/my_robots_interfaces/environment/pythonpath.dsv
+[11.766s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/local/lib/python3.10/dist-packages/my_robots_interfaces-0.0.0-py3.10.egg-info
+[11.767s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/local/lib/python3.10/dist-packages/my_robots_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[11.767s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/local/lib/python3.10/dist-packages/my_robots_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[11.767s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/local/lib/python3.10/dist-packages/my_robots_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[11.767s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/local/lib/python3.10/dist-packages/my_robots_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[11.768s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/local/lib/python3.10/dist-packages/my_robots_interfaces
+[11.768s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/local/lib/python3.10/dist-packages/my_robots_interfaces/my_robots_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[11.768s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/local/lib/python3.10/dist-packages/my_robots_interfaces/msg
+[11.769s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/local/lib/python3.10/dist-packages/my_robots_interfaces/msg/_turtle_array_s.c
+[11.769s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/local/lib/python3.10/dist-packages/my_robots_interfaces/msg/__init__.py
+[11.769s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/local/lib/python3.10/dist-packages/my_robots_interfaces/msg/_hardware_status.py
+[11.769s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/local/lib/python3.10/dist-packages/my_robots_interfaces/msg/_turtle_s.c
+[11.770s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/local/lib/python3.10/dist-packages/my_robots_interfaces/msg/_hardware_status_s.c
+[11.770s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/local/lib/python3.10/dist-packages/my_robots_interfaces/msg/_turtle.py
+[11.770s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/local/lib/python3.10/dist-packages/my_robots_interfaces/msg/_led_state_array_s.c
+[11.770s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/local/lib/python3.10/dist-packages/my_robots_interfaces/msg/_led_state_array.py
+[11.770s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/local/lib/python3.10/dist-packages/my_robots_interfaces/msg/_turtle_array.py
+[11.771s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/local/lib/python3.10/dist-packages/my_robots_interfaces/_my_robots_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[11.771s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/local/lib/python3.10/dist-packages/my_robots_interfaces/__init__.py
+[11.771s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/local/lib/python3.10/dist-packages/my_robots_interfaces/_my_robots_interfaces_s.ep.rosidl_typesupport_c.c
+[11.771s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/local/lib/python3.10/dist-packages/my_robots_interfaces/libmy_robots_interfaces__rosidl_generator_py.so
+[11.772s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/local/lib/python3.10/dist-packages/my_robots_interfaces/_my_robots_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[11.772s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/local/lib/python3.10/dist-packages/my_robots_interfaces/my_robots_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[11.772s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/local/lib/python3.10/dist-packages/my_robots_interfaces/my_robots_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[11.772s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/local/lib/python3.10/dist-packages/my_robots_interfaces/srv
+[11.773s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/local/lib/python3.10/dist-packages/my_robots_interfaces/srv/__init__.py
+[11.773s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/local/lib/python3.10/dist-packages/my_robots_interfaces/srv/_set_leds_staus.py
+[11.773s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/local/lib/python3.10/dist-packages/my_robots_interfaces/srv/_set_leds_staus_s.c
+[11.773s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/local/lib/python3.10/dist-packages/my_robots_interfaces/srv/_catch_turtle_s.c
+[11.773s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/local/lib/python3.10/dist-packages/my_robots_interfaces/srv/_compute_rectangle_area_s.c
+[11.774s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/local/lib/python3.10/dist-packages/my_robots_interfaces/srv/_compute_rectangle_area.py
+[11.774s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/local/lib/python3.10/dist-packages/my_robots_interfaces/srv/_catch_turtle.py
+[11.835s] Listing '/home/electronica/ros2_ws/install/my_robots_interfaces/local/lib/python3.10/dist-packages/my_robots_interfaces'...
+[11.835s] Compiling '/home/electronica/ros2_ws/install/my_robots_interfaces/local/lib/python3.10/dist-packages/my_robots_interfaces/__init__.py'...
+[11.835s] Listing '/home/electronica/ros2_ws/install/my_robots_interfaces/local/lib/python3.10/dist-packages/my_robots_interfaces/msg'...
+[11.836s] Compiling '/home/electronica/ros2_ws/install/my_robots_interfaces/local/lib/python3.10/dist-packages/my_robots_interfaces/msg/__init__.py'...
+[11.836s] Compiling '/home/electronica/ros2_ws/install/my_robots_interfaces/local/lib/python3.10/dist-packages/my_robots_interfaces/msg/_hardware_status.py'...
+[11.836s] Compiling '/home/electronica/ros2_ws/install/my_robots_interfaces/local/lib/python3.10/dist-packages/my_robots_interfaces/msg/_led_state_array.py'...
+[11.836s] Compiling '/home/electronica/ros2_ws/install/my_robots_interfaces/local/lib/python3.10/dist-packages/my_robots_interfaces/msg/_turtle.py'...
+[11.836s] Compiling '/home/electronica/ros2_ws/install/my_robots_interfaces/local/lib/python3.10/dist-packages/my_robots_interfaces/msg/_turtle_array.py'...
+[11.836s] Listing '/home/electronica/ros2_ws/install/my_robots_interfaces/local/lib/python3.10/dist-packages/my_robots_interfaces/srv'...
+[11.837s] Compiling '/home/electronica/ros2_ws/install/my_robots_interfaces/local/lib/python3.10/dist-packages/my_robots_interfaces/srv/__init__.py'...
+[11.837s] Compiling '/home/electronica/ros2_ws/install/my_robots_interfaces/local/lib/python3.10/dist-packages/my_robots_interfaces/srv/_catch_turtle.py'...
+[11.837s] Compiling '/home/electronica/ros2_ws/install/my_robots_interfaces/local/lib/python3.10/dist-packages/my_robots_interfaces/srv/_compute_rectangle_area.py'...
+[11.837s] Compiling '/home/electronica/ros2_ws/install/my_robots_interfaces/local/lib/python3.10/dist-packages/my_robots_interfaces/srv/_set_leds_staus.py'...
+[11.841s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/local/lib/python3.10/dist-packages/my_robots_interfaces/my_robots_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[11.842s] -- Set runtime path of "/home/electronica/ros2_ws/install/my_robots_interfaces/local/lib/python3.10/dist-packages/my_robots_interfaces/my_robots_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[11.843s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/local/lib/python3.10/dist-packages/my_robots_interfaces/my_robots_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[11.843s] -- Set runtime path of "/home/electronica/ros2_ws/install/my_robots_interfaces/local/lib/python3.10/dist-packages/my_robots_interfaces/my_robots_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[11.844s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/local/lib/python3.10/dist-packages/my_robots_interfaces/my_robots_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[11.845s] -- Set runtime path of "/home/electronica/ros2_ws/install/my_robots_interfaces/local/lib/python3.10/dist-packages/my_robots_interfaces/my_robots_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[11.845s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/lib/libmy_robots_interfaces__rosidl_generator_py.so
+[11.846s] -- Set runtime path of "/home/electronica/ros2_ws/install/my_robots_interfaces/lib/libmy_robots_interfaces__rosidl_generator_py.so" to ""
+[11.882s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/share/my_robots_interfaces/msg/HardwareStatus.idl
+[11.883s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/share/my_robots_interfaces/msg/LedStateArray.idl
+[11.883s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/share/my_robots_interfaces/msg/Turtle.idl
+[11.883s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/share/my_robots_interfaces/msg/TurtleArray.idl
+[11.884s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/share/my_robots_interfaces/srv/ComputeRectangleArea.idl
+[11.884s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/share/my_robots_interfaces/srv/SetLedsStaus.idl
+[11.884s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/share/my_robots_interfaces/srv/CatchTurtle.idl
+[11.885s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/share/my_robots_interfaces/msg/HardwareStatus.msg
+[11.885s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/share/my_robots_interfaces/msg/LedStateArray.msg
+[11.885s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/share/my_robots_interfaces/msg/Turtle.msg
+[11.885s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/share/my_robots_interfaces/msg/TurtleArray.msg
+[11.886s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/share/my_robots_interfaces/srv/ComputeRectangleArea.srv
+[11.886s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/share/my_robots_interfaces/srv/ComputeRectangleArea_Request.msg
+[11.886s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/share/my_robots_interfaces/srv/ComputeRectangleArea_Response.msg
+[11.887s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/share/my_robots_interfaces/srv/SetLedsStaus.srv
+[11.887s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/share/my_robots_interfaces/srv/SetLedsStaus_Request.msg
+[11.887s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/share/my_robots_interfaces/srv/SetLedsStaus_Response.msg
+[11.887s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/share/my_robots_interfaces/srv/CatchTurtle.srv
+[11.888s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/share/my_robots_interfaces/srv/CatchTurtle_Request.msg
+[11.888s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/share/my_robots_interfaces/srv/CatchTurtle_Response.msg
+[11.888s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/share/ament_index/resource_index/package_run_dependencies/my_robots_interfaces
+[11.888s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/share/ament_index/resource_index/parent_prefix_path/my_robots_interfaces
+[11.889s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/share/my_robots_interfaces/environment/ament_prefix_path.sh
+[11.889s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/share/my_robots_interfaces/environment/ament_prefix_path.dsv
+[11.889s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/share/my_robots_interfaces/environment/path.sh
+[11.890s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/share/my_robots_interfaces/environment/path.dsv
+[11.890s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/share/my_robots_interfaces/local_setup.bash
+[11.890s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/share/my_robots_interfaces/local_setup.sh
+[11.890s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/share/my_robots_interfaces/local_setup.zsh
+[11.891s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/share/my_robots_interfaces/local_setup.dsv
+[11.891s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/share/my_robots_interfaces/package.dsv
+[11.891s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/share/ament_index/resource_index/packages/my_robots_interfaces
+[11.891s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/share/my_robots_interfaces/cmake/export_my_robots_interfaces__rosidl_generator_cExport.cmake
+[11.892s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/share/my_robots_interfaces/cmake/export_my_robots_interfaces__rosidl_generator_cExport-noconfig.cmake
+[11.892s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/share/my_robots_interfaces/cmake/export_my_robots_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[11.892s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/share/my_robots_interfaces/cmake/export_my_robots_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[11.893s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/share/my_robots_interfaces/cmake/my_robots_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[11.893s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/share/my_robots_interfaces/cmake/my_robots_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[11.893s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/share/my_robots_interfaces/cmake/my_robots_interfaces__rosidl_typesupport_cExport.cmake
+[11.894s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/share/my_robots_interfaces/cmake/my_robots_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[11.894s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/share/my_robots_interfaces/cmake/export_my_robots_interfaces__rosidl_generator_cppExport.cmake
+[11.894s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/share/my_robots_interfaces/cmake/export_my_robots_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[11.894s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/share/my_robots_interfaces/cmake/export_my_robots_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[11.894s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/share/my_robots_interfaces/cmake/my_robots_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[11.895s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/share/my_robots_interfaces/cmake/my_robots_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[11.895s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/share/my_robots_interfaces/cmake/my_robots_interfaces__rosidl_typesupport_cppExport.cmake
+[11.895s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/share/my_robots_interfaces/cmake/my_robots_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[11.895s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/share/my_robots_interfaces/cmake/export_my_robots_interfaces__rosidl_generator_pyExport.cmake
+[11.895s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/share/my_robots_interfaces/cmake/export_my_robots_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[11.896s] -- Installing: /home/electronica/ros2_ws/install/my_robots_interfaces/share/my_robots_interfaces/cmake/rosidl_cmake-extras.cmake
+[11.896s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/share/my_robots_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.896s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/share/my_robots_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[11.897s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/share/my_robots_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[11.897s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/share/my_robots_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[11.897s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/share/my_robots_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.898s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/share/my_robots_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[11.898s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/share/my_robots_interfaces/cmake/my_robots_interfacesConfig.cmake
+[11.899s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/share/my_robots_interfaces/cmake/my_robots_interfacesConfig-version.cmake
+[11.899s] -- Up-to-date: /home/electronica/ros2_ws/install/my_robots_interfaces/share/my_robots_interfaces/package.xml
+[11.900s] Invoked command in '/home/electronica/ros2_ws/build/my_robots_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/electronica/ros2_ws/install/turtlesim_catch_them_all:/home/electronica/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/electronica/ros2_ws/build/my_robots_interfaces

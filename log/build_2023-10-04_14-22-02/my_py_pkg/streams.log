@@ -1,0 +1,77 @@
+[2.225s] Invoking command in '/home/electronica/ros2_ws/src/my_py_pkg': PYTHONPATH=/home/electronica/ros2_ws/build/my_py_pkg/prefix_override:/home/electronica/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/electronica/ros2_ws/build/my_py_pkg/build install --record /home/electronica/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed
+[2.659s] running egg_info
+[2.660s] creating ../../build/my_py_pkg/my_py_pkg.egg-info
+[2.660s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[2.661s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[2.661s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[2.661s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[2.662s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[2.662s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.664s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.665s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.665s] running build
+[2.665s] running build_py
+[2.666s] creating /home/electronica/ros2_ws/build/my_py_pkg/build
+[2.666s] creating /home/electronica/ros2_ws/build/my_py_pkg/build/lib
+[2.666s] creating /home/electronica/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.666s] copying my_py_pkg/__init__.py -> /home/electronica/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.667s] copying my_py_pkg/add_two_ints_client.py -> /home/electronica/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.667s] copying my_py_pkg/battery_node.py -> /home/electronica/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.667s] copying my_py_pkg/hw_status_publisher.py -> /home/electronica/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.668s] copying my_py_pkg/led_panel_node.py -> /home/electronica/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.668s] copying my_py_pkg/number_counter.py -> /home/electronica/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.668s] copying my_py_pkg/add_two_ints_client_no_oop.py -> /home/electronica/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.668s] copying my_py_pkg/smartphone.py -> /home/electronica/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.668s] copying my_py_pkg/add_two_ints_server.py -> /home/electronica/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.669s] copying my_py_pkg/my_first_node.py -> /home/electronica/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.669s] copying my_py_pkg/robot_news_station.py -> /home/electronica/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.669s] copying my_py_pkg/number_publisher.py -> /home/electronica/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.669s] running install
+[2.669s] running install_lib
+[2.671s] creating /home/electronica/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.671s] copying /home/electronica/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/electronica/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.671s] copying /home/electronica/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_client.py -> /home/electronica/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.671s] copying /home/electronica/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/battery_node.py -> /home/electronica/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.671s] copying /home/electronica/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/hw_status_publisher.py -> /home/electronica/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.672s] copying /home/electronica/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/led_panel_node.py -> /home/electronica/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.672s] copying /home/electronica/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/number_counter.py -> /home/electronica/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.672s] copying /home/electronica/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_client_no_oop.py -> /home/electronica/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.672s] copying /home/electronica/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/smartphone.py -> /home/electronica/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.672s] copying /home/electronica/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_server.py -> /home/electronica/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.673s] copying /home/electronica/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/my_first_node.py -> /home/electronica/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.673s] copying /home/electronica/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/robot_news_station.py -> /home/electronica/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.673s] copying /home/electronica/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/number_publisher.py -> /home/electronica/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.674s] byte-compiling /home/electronica/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__init__.py to __init__.cpython-310.pyc
+[2.674s] byte-compiling /home/electronica/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_client.py to add_two_ints_client.cpython-310.pyc
+[2.675s] byte-compiling /home/electronica/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/battery_node.py to battery_node.cpython-310.pyc
+[2.676s] byte-compiling /home/electronica/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/hw_status_publisher.py to hw_status_publisher.cpython-310.pyc
+[2.677s] byte-compiling /home/electronica/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/led_panel_node.py to led_panel_node.cpython-310.pyc
+[2.677s] byte-compiling /home/electronica/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/number_counter.py to number_counter.cpython-310.pyc
+[2.678s] byte-compiling /home/electronica/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_client_no_oop.py to add_two_ints_client_no_oop.cpython-310.pyc
+[2.679s] byte-compiling /home/electronica/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/smartphone.py to smartphone.cpython-310.pyc
+[2.679s] byte-compiling /home/electronica/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_server.py to add_two_ints_server.cpython-310.pyc
+[2.680s] byte-compiling /home/electronica/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/my_first_node.py to my_first_node.cpython-310.pyc
+[2.680s] byte-compiling /home/electronica/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/robot_news_station.py to robot_news_station.cpython-310.pyc
+[2.681s] byte-compiling /home/electronica/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/number_publisher.py to number_publisher.cpython-310.pyc
+[2.681s] running install_data
+[2.682s] creating /home/electronica/ros2_ws/install/my_py_pkg/share/ament_index
+[2.682s] creating /home/electronica/ros2_ws/install/my_py_pkg/share/ament_index/resource_index
+[2.683s] creating /home/electronica/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[2.683s] copying resource/my_py_pkg -> /home/electronica/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[2.683s] copying package.xml -> /home/electronica/ros2_ws/install/my_py_pkg/share/my_py_pkg
+[2.683s] running install_egg_info
+[2.685s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/electronica/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[2.687s] running install_scripts
+[2.718s] Installing add_two_ints_client script to /home/electronica/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.718s] Installing add_two_ints_client_no_oop script to /home/electronica/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.719s] Installing add_two_ints_server script to /home/electronica/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.719s] Installing battery_node script to /home/electronica/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.719s] Installing hw_status_publisher script to /home/electronica/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.719s] Installing led_status_node script to /home/electronica/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.720s] Installing number_counter script to /home/electronica/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.720s] Installing number_publisher script to /home/electronica/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.720s] Installing py_node script to /home/electronica/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.721s] Installing robot_news_station script to /home/electronica/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.721s] Installing smartphone script to /home/electronica/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.721s] writing list of installed files to '/home/electronica/ros2_ws/build/my_py_pkg/install.log'
+[2.821s] Invoked command in '/home/electronica/ros2_ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/electronica/ros2_ws/build/my_py_pkg/prefix_override:/home/electronica/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/electronica/ros2_ws/build/my_py_pkg/build install --record /home/electronica/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed

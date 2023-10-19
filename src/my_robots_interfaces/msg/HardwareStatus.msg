@@ -1,0 +1,3 @@
+int64 temperature
+bool motors_are_ready
+string debug_message

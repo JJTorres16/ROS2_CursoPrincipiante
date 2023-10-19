@@ -1,0 +1,4 @@
+Invoking command in '/home/electronica/ros2_ws/build/my_robots_interfaces': /usr/bin/cmake --build /home/electronica/ros2_ws/build/my_robots_interfaces -- -j8 -l8
+Invoked command in '/home/electronica/ros2_ws/build/my_robots_interfaces' returned '0': /usr/bin/cmake --build /home/electronica/ros2_ws/build/my_robots_interfaces -- -j8 -l8
+Invoking command in '/home/electronica/ros2_ws/build/my_robots_interfaces': /usr/bin/cmake --install /home/electronica/ros2_ws/build/my_robots_interfaces
+Invoked command in '/home/electronica/ros2_ws/build/my_robots_interfaces' returned '0': /usr/bin/cmake --install /home/electronica/ros2_ws/build/my_robots_interfaces
